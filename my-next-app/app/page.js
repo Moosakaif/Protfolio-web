@@ -1,6 +1,6 @@
 export default function Home() {
   const featured = [
-    { id: 1, name: 'Eco Hoodie', price: '$45', image: '' },
+    { id: 1, name: 'Eco Hoodie', price: '$45', image: 'https://via.placeholder.com/300x200?text=Eco+Hoodie' },
     { id: 2, name: 'Smart Glasses', price: '$150', image: 'https://via.placeholder.com/300x200?text=Smart+Glasses' },
     { id: 3, name: 'Leather Wallet', price: '$40', image: 'https://via.placeholder.com/300x200?text=Wallet' }
   ];

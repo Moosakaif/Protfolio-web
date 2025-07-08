@@ -4,20 +4,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="font-sans bg-gray-50 text-gray-800">
-        <header className="bg-blue-600 shadow sticky top-0 z-50">
+        <header className="bg-white shadow sticky top-0 z-50">
           <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
             <div className="flex items-center gap-3">
               <span className="text-blue-600 text-3xl">🛒</span>
-              <h1 className="text-xl font-bold text-white tracking-tight">OnePage Store</h1>
+              <h1 className="text-xl font-bold text-blue-700 tracking-tight">OnePage Store</h1>
             </div>
             <nav className="flex gap-6 text-md font-medium">
-              <a href="/" className="text-white hover:text-black transition">Home</a>
-              <a href="/products" className="text-white hover:text-black transition">Products</a>
-              <a href="/about" className="text-white hover:text-black transition">About Us</a>
-              <a href="/contact" className="text-white hover:text-black transition">Contact</a>
+              <a href="/" className="text-gray-700 hover:text-blue-600 transition">Home</a>
+              <a href="/products" className="text-gray-700 hover:text-blue-600 transition">Products</a>
+              <a href="/about" className="text-gray-700 hover:text-blue-600 transition">About Us</a>
+              <a href="/contact" className="text-gray-700 hover:text-blue-600 transition">Contact</a>
             </nav>
             <div className="hidden md:flex gap-4 text-blue-600 text-xl">
-              <a href="#" className="hover:text-blue-900"><i className="fab fa-facebook"></i></a>
+              <a href="#" className="hover:text-blue-800"><i className="fab fa-facebook"></i></a>
               <a href="#" className="hover:text-blue-800"><i className="fab fa-instagram"></i></a>
               <a href="#" className="hover:text-blue-800"><i className="fab fa-twitter"></i></a>
               <a href="#" className="hover:text-blue-800"><i className="fab fa-linkedin"></i></a>
