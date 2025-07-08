@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
             </div>
             <nav className="flex gap-6 text-md font-medium">
               <a href="/" className="text-gray-700 hover:text-blue-600 transition">Home</a>
-              <a href="/products" className="text-gray-700 hover:text-blue-600 transition">Products</a>
+              <a href="/product" className="text-gray-700 hover:text-blue-600 transition">Products</a>
               <a href="/about" className="text-gray-700 hover:text-blue-600 transition">About Us</a>
               <a href="/contact" className="text-gray-700 hover:text-blue-600 transition">Contact</a>
             </nav>
